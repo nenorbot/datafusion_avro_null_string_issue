@@ -1,0 +1,10 @@
+[package]
+name = "datafusion_avro_null_string_issue"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+datafusion = { version = "23.0.0", features = ["avro"] }
+tokio = "1.28.0"
